@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  align-items: center;
+  background-color: #a2a4a9;
+  display: flex;
+  font: 100% "Muli";
+  justify-content: space-evenly;
+  height: 10vh;
+  position: sticky;
+}
+
+nav {
+  width: 50%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav li {
+  list-style: none;
+}
+
+.hero {
+  padding: 1em;
+}
+
+.info {
+  background: DarkGray;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+  width: 150px;
+  height: 150px;
+}
+
+.alert {
+  background: DarkRed;
+  box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+  color: #fff;
+  width: 150px;
+  height: 150px;
+}
+
+.success {
+  background: DarkGreen;
+  box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+  width: 150px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=styles.css.map */
